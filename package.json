@@ -14,9 +14,14 @@
   "license": "MIT",
   "peerDependencies": {
     "react": "^17.0.2",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "taverne": "^1.16.9"
+  },
+  "dependencies": {
+    "marked": "^2.0.1",
+    "prismjs": "^1.23.0"
   }
 }
