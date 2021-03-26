@@ -1,6 +1,6 @@
 {
   "name": "@twinlify/walrus",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Frontend shared tools and components",
   "main": "index.js",
   "scripts": {
