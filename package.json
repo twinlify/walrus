@@ -1,0 +1,22 @@
+{
+  "name": "@twinlify/walrus",
+  "version": "0.0.1",
+  "description": "Frontend shared tools and components",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "ncu": "npm-check-updates",
+    "copy": "rm -rf ./dist && sh scripts/copy-package-files.sh",
+    "prerelease": "npm run copy",
+    "release": "npm publish ./dist"
+  },
+  "author": "@chrisdugne",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "taverne": "^1.16.9"
+  }
+}
