@@ -5,3 +5,19 @@
 </p>
 
 # walrus
+
+Bunch of ES modules to use in [bundled](https://esbuild.github.io/) frontends.
+
+## components
+
+```jsx
+import {ReloadAnchor, ScrollToTop} from '@twinlify/walrus';
+
+const createApp = () => (
+  <>
+    <ScrollToTop />
+    <ReloadAnchor />
+    <App />
+  </>
+);
+```
