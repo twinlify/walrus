@@ -6,8 +6,8 @@
   "scripts": {
     "lint": "eslint src",
     "ncu": "npm-check-updates",
-    "copy": "rm -rf ./dist && sh scripts/copy-package-files.sh",
-    "prerelease": "npm run copy",
+    "build": "rm -rf ./dist && sh scripts/copy-package-files.sh",
+    "prerelease": "npm run build",
     "release": "npm publish ./dist"
   },
   "author": "@chrisdugne",
