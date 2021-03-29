@@ -2,5 +2,6 @@ import ReloadAnchor from './reload-anchor';
 import ScrollToTop from './scroll-to-top';
 import Markdown from './markdown';
 import Prism from './prism';
+import Header from './header';
 
-export {Markdown, Prism, ReloadAnchor, ScrollToTop};
+export {Header, Markdown, Prism, ReloadAnchor, ScrollToTop};
