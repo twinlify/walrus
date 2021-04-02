@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ededed;
+  font-weight: 200;
   font-size: 17px;
   font-family: Poppins;
 }
