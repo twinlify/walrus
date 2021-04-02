@@ -9,13 +9,13 @@ const $Markup = styled.div`
   display: flex;
   flex-direction: column;
   align-items: left;
-  font-size: 14px;
+  font-size: 13px;
   box-sizing: border-box;
   max-width: 900px;
   width: 100%;
 
   @media ${device.tablet} {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   p code,
