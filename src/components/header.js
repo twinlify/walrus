@@ -121,7 +121,7 @@ const Header = (props) => {
     <$HeaderWrapper>
       <$Header>
         <$Title>
-          <a href="https://twinlify.com" target="__blank">
+          <a href="https://twinlify.com" target="_blank">
             <$Logo src="https://static.twinlify.com/logos/logo-square.svg" />
             <$Name>Twinlify</$Name>
           </a>
