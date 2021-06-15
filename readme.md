@@ -4,9 +4,38 @@
   </a>
 </p>
 
-# walrus
+# 🦭 walrus
 
 Bunch of ES modules to use in [bundled](https://esbuild.github.io/) frontends.
+
+## common style
+
+```js
+import {globalStyle} from '@twinlify/walrus';
+
+const GlobalStyle = createGlobalStyle`${globalStyle}`;
+
+const createApp = () => (
+  <>
+    <GlobalStyle />
+    <App />
+  </>
+);
+```
+
+## common header
+
+```js
+import {Header as CommonHeader} from '@twinlify/walrus';
+
+const App = () => {
+  return (
+    <CommonHeader subtitle="Your App" onSubtitleClick={() => console.log('click')}>
+      ...children
+    </CommonHeader>
+  );
+};
+```
 
 ## components
 
