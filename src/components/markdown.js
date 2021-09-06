@@ -30,13 +30,11 @@ const $Markup = styled.div`
   }
 
   h2 {
-    padding-top: 70px;
-    margin-top: -20px;
+    padding-top: 30px;
   }
 
   h3 {
-    padding-top: 70px;
-    margin-top: -50px;
+    padding-top: 30px;
   }
 
   details {
@@ -46,6 +44,7 @@ const $Markup = styled.div`
     border-radius: 5px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 80px;
     box-sizing: border-box;
 
     summary {
